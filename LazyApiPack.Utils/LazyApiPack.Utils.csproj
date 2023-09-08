@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Title>The Lazy Crazy Brain Api Pack - Utils</Title>
+	<Description>A collection of common functionality to build epic applications.</Description>
+	<Authors>Jodie Watson</Authors>
+	<Copyright>Copyright (c) 2022-2023 Jodie Watson</Copyright>
+	<PackageOutputPath>C:\LocalNugets\LazyApiPack\$(OutputPath)</PackageOutputPath>
+	<AssemblyVersion>0.0.1</AssemblyVersion>
+	<FileVersion>0.0.1</FileVersion>
+	<Version>$(AssemblyVersion)</Version>
+	<PackageProjectUrl>https://github.com/thelazycrazybrain/LazyApiPack.Utils</PackageProjectUrl>
+	<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/thelazycrazybrain/LazyApiPack.Utils.git</RepositoryUrl>
+	<PackageTags>tools;cs</PackageTags>
+	<PackageReleaseNotes>Notification Object implemented.</PackageReleaseNotes>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Update="ReadMe.md" Pack="True" PackagePath="\" />
+	</ItemGroup>
+
+</Project>
