@@ -10,11 +10,12 @@
 	<Authors>Jodie Watson</Authors>
 	<Copyright>Copyright (c) 2022-2023 Jodie Watson</Copyright>
 	<PackageOutputPath>C:\LocalNugets\LazyApiPack\$(OutputPath)</PackageOutputPath>
-	<Version>$(AssemblyVersion)</Version>
+	<Version>0.0.3.1</Version>
 	<PackageProjectUrl>https://github.com/thelazycrazybrain/LazyApiPack.Utils</PackageProjectUrl>
 	<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	<RepositoryUrl>https://github.com/thelazycrazybrain/LazyApiPack.Utils.git</RepositoryUrl>
 	<PackageTags>tools;cs</PackageTags>
+	  <PackageReleaseNotes>More classes for platform agnostic shapes added.</PackageReleaseNotes>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
 	<ItemGroup>
