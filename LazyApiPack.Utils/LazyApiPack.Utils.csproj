@@ -10,7 +10,8 @@
 	<Authors>Jodie Watson</Authors>
 	<Copyright>Copyright (c) 2022-2023 Jodie Watson</Copyright>
 	<PackageOutputPath>C:\LocalNugets\LazyApiPack\$(OutputPath)</PackageOutputPath>
-	<Version>0.0.3.2</Version>
+	<Version>0.0.3.3</Version>
+	  <FileVersion>0.0.3.3</FileVersion>
 	<PackageProjectUrl>https://github.com/thelazycrazybrain/LazyApiPack.Utils</PackageProjectUrl>
 	<PackageReadmeFile>ReadMe.md</PackageReadmeFile>
 	<RepositoryUrl>https://github.com/thelazycrazybrain/LazyApiPack.Utils.git</RepositoryUrl>
